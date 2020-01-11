@@ -11,3 +11,5 @@ iOS app to manage your GitHub followers.
 * Custom Alert
 * No thrid libraries
 * Responsive across devices
+* Cache Images
+* Handling memory leaks
