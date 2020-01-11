@@ -26,6 +26,7 @@
 		77F53F4323CA151D000B2340 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F53F4223CA151D000B2340 /* ErrorMessage.swift */; };
 		77F53F4623CA1F04000B2340 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F53F4523CA1F04000B2340 /* FollowerCell.swift */; };
 		77F53F4823CA1F86000B2340 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F53F4723CA1F86000B2340 /* GFAvatarImageView.swift */; };
+		77F53F4A23CA3110000B2340 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F53F4923CA3110000B2340 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		77F53F4223CA151D000B2340 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		77F53F4523CA1F04000B2340 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		77F53F4723CA1F86000B2340 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		77F53F4923CA3110000B2340 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				77F53F2323C9E32C000B2340 /* SearchVC.swift */,
-				77F53F2523C9E355000B2340 /* FavoritesListVC.swift */,
 				77F53F2B23C9F589000B2340 /* FollowerListVC.swift */,
+				77F53F2523C9E355000B2340 /* FavoritesListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				77F53F4223CA151D000B2340 /* ErrorMessage.swift */,
+				77F53F4923CA3110000B2340 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				77F53F2623C9E355000B2340 /* FavoritesListVC.swift in Sources */,
 				77F53F2823C9E84E000B2340 /* GFButton.swift in Sources */,
 				77F53F3423CA0273000B2340 /* UIViewController+Ext.swift in Sources */,
+				77F53F4A23CA3110000B2340 /* UIHelper.swift in Sources */,
 				77F53F4823CA1F86000B2340 /* GFAvatarImageView.swift in Sources */,
 				77F53F2423C9E32C000B2340 /* SearchVC.swift in Sources */,
 				77F53F3223C9FD17000B2340 /* GFAlertVC.swift in Sources */,
