@@ -9,7 +9,7 @@ iOS app to manage your GitHub followers.
 * No storyboards
 * MVC structure
 * Custom Alert
-* No thrid libraries
+* No third libraries
 * Responsive across devices
 * Cache Images
 * Handling memory leaks
