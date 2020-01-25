@@ -13,3 +13,5 @@ iOS app to manage your GitHub followers.
 * Responsive across devices
 * Cache Images
 * Handling memory leaks
+* Delegates and protocols
+* Persistence
