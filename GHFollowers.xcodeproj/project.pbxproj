@@ -18,6 +18,7 @@
 		77564ED323DA42B00018CD47 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77564ED223DA42B00018CD47 /* GFSecondaryTitleLabel.swift */; };
 		77564ED523DA49840018CD47 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77564ED423DA49840018CD47 /* Constants.swift */; };
 		77564ED723DA50B30018CD47 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77564ED623DA50B30018CD47 /* GFItemInfoView.swift */; };
+		77DBF86D23E4963B00E48550 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBF86C23E4963B00E48550 /* GFTabBarController.swift */; };
 		77F53F1023C9DAA8000B2340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F53F0F23C9DAA8000B2340 /* AppDelegate.swift */; };
 		77F53F1223C9DAA8000B2340 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F53F1123C9DAA8000B2340 /* SceneDelegate.swift */; };
 		77F53F1923C9DAA9000B2340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F53F1823C9DAA9000B2340 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		77564ED223DA42B00018CD47 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		77564ED423DA49840018CD47 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		77564ED623DA50B30018CD47 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		77DBF86C23E4963B00E48550 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		77F53F0C23C9DAA8000B2340 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F53F0F23C9DAA8000B2340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77F53F1123C9DAA8000B2340 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 			path = ItemInfoVC;
 			sourceTree = "<group>";
 		};
+		77DBF86B23E4961C00E48550 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				77DBF86C23E4963B00E48550 /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
 		77F53F0323C9DAA8000B2340 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 		77F53F3623CA050B000B2340 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				77DBF86B23E4961C00E48550 /* TabBarControllers */,
 				77F53F5023CA8FDB000B2340 /* Labels */,
 				77F53F4F23CA8FC8000B2340 /* ViewControllers */,
 				77F53F4E23CA8FC1000B2340 /* ImageViews */,
@@ -354,6 +365,7 @@
 				77564ED723DA50B30018CD47 /* GFItemInfoView.swift in Sources */,
 				7720A68823DD2F110092F122 /* FavoriteCell.swift in Sources */,
 				77F53F3223C9FD17000B2340 /* GFAlertVC.swift in Sources */,
+				77DBF86D23E4963B00E48550 /* GFTabBarController.swift in Sources */,
 				77F53F4623CA1F04000B2340 /* FollowerCell.swift in Sources */,
 				77F53F3023C9FC04000B2340 /* GFBodyLabel.swift in Sources */,
 				77F53F3B23CA08DE000B2340 /* Follower.swift in Sources */,
