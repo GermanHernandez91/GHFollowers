@@ -14,14 +14,14 @@ protocol UserInfoVCDelegate: class {
 
 class UserInfoVC: GFDataLoadingVC {
     
-    let scrollView          = UIScrollView()
-    let contentView         = UIView()
+    let scrollView              = UIScrollView()
+    let contentView             = UIView()
     
-    let headerView          = UIView()
-    let itemViewOne         = UIView()
-    let itemViewTwo         = UIView()
-    let dateLabel           = GFBodyLabel(textAlignment: .center)
-    var itemViews: [UIView] = []
+    let headerView              = UIView()
+    let itemViewOne             = UIView()
+    let itemViewTwo             = UIView()
+    let dateLabel               = GFBodyLabel(textAlignment: .center)
+    var itemViews: [UIView]     = []
     
     var username: String!
     weak var delegate: UserInfoVCDelegate!
