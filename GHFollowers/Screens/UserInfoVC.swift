@@ -62,7 +62,6 @@ class UserInfoVC: GFDataLoadingVC {
             guard let self = self else { return }
             
             switch result {
-                
             case .success(let user):
                 DispatchQueue.main.async { self.configureUIElements(with: user) }
                 
@@ -124,7 +123,6 @@ class UserInfoVC: GFDataLoadingVC {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-
 }
 
 
@@ -138,7 +136,6 @@ extension UserInfoVC: GFRepoItemVCDelegate {
 
         presentSafariVC(with: url)
     }
-    
 }
 
 
@@ -153,5 +150,4 @@ extension UserInfoVC: GFFollowerItemVCDelegate {
         delegate.didRequestFollowers(for: user.login)
         dismissVC()
     }
-    
 }

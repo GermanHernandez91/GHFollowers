@@ -37,5 +37,4 @@ class GFTitleLabel: UILabel {
         
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
 }

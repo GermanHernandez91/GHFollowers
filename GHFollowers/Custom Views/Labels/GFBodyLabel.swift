@@ -36,5 +36,4 @@ class GFBodyLabel: UILabel {
         adjustsFontForContentSizeCategory   = true
         translatesAutoresizingMaskIntoConstraints = false
     }
-
 }
